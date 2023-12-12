@@ -1,7 +1,8 @@
 import express from "express";
-import { User } from "../models/user.js";
+
 import bcrypt from "bcrypt";
 import jsonwebtoken from "jsonwebtoken";
+import { User } from "../models/User";
 
 const authController = express.Router();
 
